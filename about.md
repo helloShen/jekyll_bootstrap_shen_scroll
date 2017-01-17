@@ -1,15 +1,9 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### Permanent pages
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Except the articles in collections (Ex: `/_posts`),  we can have some pages with permanent link. I put them all in the `/about` folder. Of course, you can have your own choice.

@@ -31,7 +31,7 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-.exercises{
+.intro-section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -39,11 +39,26 @@ of those sections to manage the look and feel of the site. */
     background-color: #fff;
 }
 
-.articles{
+.jekyll-section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #fff;
+    text-align: center;
+    background-color: #cbe6ff ;
+}
+
+.bootstrap-section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffdae5;
+}
+
+.other-section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #faffd9;
 }
 
 div.exercise-title {
