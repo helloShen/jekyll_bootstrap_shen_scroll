@@ -11,8 +11,8 @@ github_username:  helloShen
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: ""     # ex: yourname.github.io/your-project-name  [here,"/your-project-name" is the baseurl]
-url: ""     # ex: yourname.github.io/your-project-name  [here,"yourname.github.io" is the baseurl]
+baseurl: /jekyll_bootstrap_shen     # ex: yourname.github.io/your-project-name  [here,"/your-project-name" is the baseurl]
+url: www.ciaoshen.com     # ex: yourname.github.io/your-project-name  [here,"yourname.github.io" is the baseurl]
 show_dir_listing: false
 
 ### Conversion
