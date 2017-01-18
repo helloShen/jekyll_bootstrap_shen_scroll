@@ -26,6 +26,12 @@ Write your markdown articles, put them in a folder, and then generate your web s
 
 Jekyll is a blog scaffold that transform your plain text into static websites and blogs. For more useful detailed informations, please visit [**《Jekyll Online Document》**](https://jekyllrb.com/docs/home/).
 
+And here are some interesting articles:
+1. [<< a simple jekyll guide >>](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+2. [<< jekyll structure >>](http://hustlei.tk/2014/08/jekyll-dir-and-config.html)
+3. [<< the variables in jekyll >>](http://jekyllcn.com/docs/variables/)
+4. [<< the collections in jekyll >>](http://jekyllcn.com/docs/collections/)
+
 #### Jekyll Structure
 
 This template use the simplest Jekyll structure as follow. But since Jekyll is highly scalable, you can expend any module whenever you want.
@@ -74,6 +80,11 @@ collections:
 
 ### Bootstrap
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/
+
+And here are some interesting articles:
+1. [<< the subtle magic behind why the bootstrap 3 grid works >>](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
+2. [<< simplest sass guide >>](http://www.w3cplus.com/sassguide/)
+3. [<< what is node.js >>](https://www.ibm.com/developerworks/cn/opensource/os-nodejs/)
 
 #### Structure
 
