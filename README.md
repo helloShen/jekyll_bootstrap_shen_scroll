@@ -1,4 +1,10 @@
 
+### Online Preview Demo
+
+First, take a look at the Online Demo:
+1. A simplest Demo: [**http://www.ciaoshen.com/jekyll_bootstrap_shen_scroll/**](http://www.ciaoshen.com/jekyll_bootstrap_shen_scroll/)
+2. My personal web site: [**http://www.ciaoshen.com/thinkinginjava/**](http://www.ciaoshen.com/thinkinginjava/)
+
 ### What is Jekyll Bootstrap Shen Scroll?
 
 **Jekyll Bootstrap Shen Scroll** is a personal blog Template created for developers who want to
