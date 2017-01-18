@@ -17,7 +17,7 @@ data: ["we can define data here"]
             <a class="page-scroll" href="#bootstrap">Bootstrap</a>
         </li>
         <li>
-            <a class="page-scroll" href="#others">Others</a>
+            <a class="page-scroll" href="#contact">Contact</a>
         </li>
     </ul>
 </div>
@@ -31,9 +31,11 @@ data: ["we can define data here"]
 <div class="container">
 <div class="row">
     <div class="col-lg-12">
-        <h1>Jekyll Structure</h1>
-
-    </div>
+    {% for post in site.posts %}
+    {% if post.title == 'introduction'%}
+        {{ post }}
+    {% endif %}
+    {% endfor %}
 </div>
 </div>
 </section>
@@ -43,7 +45,11 @@ data: ["we can define data here"]
 <div class="container">
 <div class="row">
     <div class="col-lg-12">
-        <h1>Jekyll Section</h1>
+        {% for post in site.posts %}
+        {% if post.title == 'jekyll'%}
+            {{ post }}
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 </div>
@@ -54,16 +60,15 @@ data: ["we can define data here"]
 <div class="container">
 <div class="row">
     <div class="col-lg-12">
-        <h1>Bootstrap Section</h1>
+        <h1>Bootstrap</h1>
         <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-        <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
     </div>
 </div>
 </div>
 </section>
 
 <!-- Contact Section -->
-<section id="others" class="other-section">
+<section id="contact" class="contact-section">
 <div class="container">
 <div class="row">
     <div class="col-lg-12">
