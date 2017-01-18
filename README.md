@@ -4,7 +4,12 @@
 First, take a look at the Online Demo:
 
 1. A simplest Demo: [**http://www.ciaoshen.com/jekyll_bootstrap_shen_scroll/**](http://www.ciaoshen.com/jekyll_bootstrap_shen_scroll/)
+
+![simpleDemo](/images/simpleDemo.png)
+
 2. My personal web site: [**http://www.ciaoshen.com/thinkinginjava/**](http://www.ciaoshen.com/thinkinginjava/)
+
+![mySite](/images/mySite.png)
 
 ### What is Jekyll Bootstrap Shen Scroll?
 
