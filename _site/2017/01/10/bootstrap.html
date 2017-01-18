@@ -1,0 +1,101 @@
+<h3 id="bootstrap">Bootstrap</h3>
+<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/</p>
+
+<h3 id="structure">Structure</h3>
+
+<p>The bootstrap library is  under the <code class="highlighter-rouge">assets</code> folder including three main directories: <code class="highlighter-rouge">css</code>, <code class="highlighter-rouge">fonts</code> and <code class="highlighter-rouge">js</code>.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── imgResponsive.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── mainDescriptionDiv.js
+    ├── scrolling-nav.js
+    ├── span.js
+    └── spanPost.js
+</code></pre>
+</div>
+
+<p>All the above files mixed three libraries together:</p>
+<ul>
+  <li>original bootstrap library</li>
+  <li>Scrolling Nav library</li>
+  <li>my additionl library</li>
+</ul>
+
+<h4 id="bootstrap-original-library">Bootstrap original library</h4>
+
+<p>The following files are the original bootstrap library:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+</code></pre>
+</div>
+
+<h4 id="scrolling-nav-library">Scrolling Nav library</h4>
+
+<p>A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  https://startbootstrap.com/template-overviews/scrolling-nav/</p>
+
+<p><strong>Usage Instructions</strong> : Make sure to include the <code class="highlighter-rouge">scrolling-nav.js</code>, <code class="highlighter-rouge">jquery.easing.min.js</code>, and <code class="highlighter-rouge">scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code class="highlighter-rouge">.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+
+<p>The library structure is shown as follow. Note: Scrolling Nav cannot work without Bootstrap.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   └── scrolling-nav.css
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── scrolling-nav.js
+</code></pre>
+</div>
+
+<h4 id="my-additional-library">My Additional library</h4>
+
+<p>In the following files, <code class="highlighter-rouge">rouge.css</code>, <code class="highlighter-rouge">rouge_monokai.css</code>, <code class="highlighter-rouge">rouge_monokai_original.css</code> are the rouge code highlighter stylesheet. And I have made some changes in <code class="highlighter-rouge">scrolling-nav.css</code>.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+└── js
+    ├── imgResponsive.js
+    ├── mainDescriptionDiv.js
+    ├── span.js
+    └── spanPost.js
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">span.js</code> and <code class="highlighter-rouge">spanPost.js</code> is for adding some additional space between two <code class="highlighter-rouge">&lt;h3&gt;</code> and <code class="highlighter-rouge">&lt;h4&gt;</code> sections. <code class="highlighter-rouge">imgResponsive.js</code> makes the image size responsive to the different screen. <code class="highlighter-rouge">mainDescriptionDiv.js</code> adjusts the size of the description div.</p>
+

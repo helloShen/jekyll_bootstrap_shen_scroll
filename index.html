@@ -1,0 +1,76 @@
+---
+layout: main
+title: "Jekyll Bootstrap Shen Scroll Template"
+data: ["we can define data here"]
+---
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#jekyll">Jekyll</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#bootstrap">Bootstrap</a>
+        </li>
+    </ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<section id="intro" class="intro-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+    {% for post in site.posts %}
+    {% if post.title == 'introduction'%}
+        {{ post }}
+    {% endif %}
+    {% endfor %}
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="jekyll" class="jekyll-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        {% for post in site.posts %}
+        {% if post.title == 'jekyll'%}
+            {{ post }}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="bootstrap" class="bootstrap-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        {% for post in site.posts %}
+        {% if post.title == 'bootstrap'%}
+            {{ post }}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+<hr>
+<footer>
+  <p><strong>&copy; Wei SHEN</strong>   |   Copyright: <strong>MIT</strong>   |   e-Mail: <strong>symantec__@hotmail.com</strong>   |   GitHub: <strong>helloShen</strong></p>
+</footer>
+</div>
+</section>
+
+
+</div>
+</section>

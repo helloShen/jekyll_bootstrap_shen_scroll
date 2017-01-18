@@ -1,0 +1,50 @@
+<h3 id="jekyll">Jekyll</h3>
+
+<p>Jekyll is a blog scaffold that transform your plain text into static websites and blogs. For more useful detailed informations, please visit <a href="https://jekyllrb.com/docs/home/"><strong>《Jekyll Online Document》</strong></a>.</p>
+
+<h3 id="jekyll-structure">Jekyll Structure</h3>
+
+<p>This template use the simplest Jekyll structure as follow. But since Jekyll is highly scalable, you can expend any module whenever you want.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>├── _config.yml
+├── _layouts
+|   ├── main.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-your-article-one.md
+|   └── 2009-04-26-your-article-two.md
+├── _site
+├── assets
+|   ├── css
+|   └── fonts
+|   └── js
+├── .jekyll-metadata
+└── index.html
+</code></pre>
+</div>
+
+<p>An overview of what each of these does:</p>
+
+<ul>
+  <li><strong><code class="highlighter-rouge">_config.yml</code></strong>: This is the config file using YAML protocol. Most of the common arguments are included.</li>
+  <li><strong><code class="highlighter-rouge">_layouts</code></strong>: These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the YAML Front Matter. I initiate only two templates: one for main page, another for posts.</li>
+  <li><strong><code class="highlighter-rouge">_site</code></strong>: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.</li>
+  <li><strong><code class="highlighter-rouge">assets</code></strong>: This is where I put the Bootstrap. You can see three folders: css,fonts and js.</li>
+  <li><strong><code class="highlighter-rouge">.jekyll-metadata</code></strong>: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.</li>
+  <li><strong><code class="highlighter-rouge">index.html</code></strong>: The main access of your web site.</li>
+</ul>
+
+<h3 id="liquid-template-language">Liquid Template Language</h3>
+
+<p>Jekyll use the <strong>Liquid Template Laguage</strong> to process the markdown files in batches. Here is good online guide for Liquid: <a href="https://github.com/shopify/liquid/wiki/liquid-for-designers"><strong>《Syntax of Liquid Template Language》</strong></a></p>
+
+<p>To create some new Collections like <code class="highlighter-rouge">posts</code>, just add some add them into the <code class="highlighter-rouge">_config.yml</code> config file, and create a new directory <code class="highlighter-rouge">_your-new-collection</code> in the root of your project.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>collections:
+  posts:
+    output:   <span class="nb">true
+  </span>your-new-collection:
+    output:   <span class="nb">true</span>
+</code></pre>
+</div>
+

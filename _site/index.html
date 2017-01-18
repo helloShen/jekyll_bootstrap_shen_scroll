@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jekyll Bootstrap Blog Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/jekyll_bootstrap_shen_scroll/assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link href="/jekyll_bootstrap_shen_scroll/assets/css/scrolling-nav.css" rel="stylesheet">
+    <link href="/jekyll_bootstrap_shen_scroll/assets/css/rouge_monokai_original.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Jekyll Bootstrap Shen Scroll</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#jekyll">Jekyll</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#bootstrap">Bootstrap</a>
+        </li>
+    </ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<section id="intro" class="intro-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+    
+    
+    
+    
+        <h3 id="what-is-jekyll-bootstrap-shen-scroll">What is Jekyll Bootstrap Shen Scroll?</h3>
+
+<p><strong>Jekyll Bootstrap Shen Scroll</strong> is a personal blog Template created for developers who want to
+focus on the content instead of waste time on CSS stylesheet.</p>
+
+<p>It merge both the <strong>Jekyll</strong> and <strong>Bootstrap</strong> to generate a static web site. Jekyll is a static blog scaffold, and Bootstrap randering the stylesheet for you.</p>
+
+<p>Write your markdown articles, put them in a folder, and then generate your web site with one command line. And that’s all!</p>
+
+
+    
+    
+    
+    
+    
+    
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="jekyll" class="jekyll-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        
+        
+            <h3 id="jekyll">Jekyll</h3>
+
+<p>Jekyll is a blog scaffold that transform your plain text into static websites and blogs. For more useful detailed informations, please visit <a href="https://jekyllrb.com/docs/home/"><strong>《Jekyll Online Document》</strong></a>.</p>
+
+<h3 id="jekyll-structure">Jekyll Structure</h3>
+
+<p>This template use the simplest Jekyll structure as follow. But since Jekyll is highly scalable, you can expend any module whenever you want.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>├── _config.yml
+├── _layouts
+|   ├── main.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-your-article-one.md
+|   └── 2009-04-26-your-article-two.md
+├── _site
+├── assets
+|   ├── css
+|   └── fonts
+|   └── js
+├── .jekyll-metadata
+└── index.html
+</code></pre>
+</div>
+
+<p>An overview of what each of these does:</p>
+
+<ul>
+  <li><strong><code class="highlighter-rouge">_config.yml</code></strong>: This is the config file using YAML protocol. Most of the common arguments are included.</li>
+  <li><strong><code class="highlighter-rouge">_layouts</code></strong>: These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the YAML Front Matter. I initiate only two templates: one for main page, another for posts.</li>
+  <li><strong><code class="highlighter-rouge">_site</code></strong>: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.</li>
+  <li><strong><code class="highlighter-rouge">assets</code></strong>: This is where I put the Bootstrap. You can see three folders: css,fonts and js.</li>
+  <li><strong><code class="highlighter-rouge">.jekyll-metadata</code></strong>: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.</li>
+  <li><strong><code class="highlighter-rouge">index.html</code></strong>: The main access of your web site.</li>
+</ul>
+
+<h3 id="liquid-template-language">Liquid Template Language</h3>
+
+<p>Jekyll use the <strong>Liquid Template Laguage</strong> to process the markdown files in batches. Here is good online guide for Liquid: <a href="https://github.com/shopify/liquid/wiki/liquid-for-designers"><strong>《Syntax of Liquid Template Language》</strong></a></p>
+
+<p>To create some new Collections like <code class="highlighter-rouge">posts</code>, just add some add them into the <code class="highlighter-rouge">_config.yml</code> config file, and create a new directory <code class="highlighter-rouge">_your-new-collection</code> in the root of your project.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>collections:
+  posts:
+    output:   <span class="nb">true
+  </span>your-new-collection:
+    output:   <span class="nb">true</span>
+</code></pre>
+</div>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="bootstrap" class="bootstrap-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        
+        
+        
+        
+        
+        
+        
+        
+            <h3 id="bootstrap">Bootstrap</h3>
+<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/</p>
+
+<h3 id="structure">Structure</h3>
+
+<p>The bootstrap library is  under the <code class="highlighter-rouge">assets</code> folder including three main directories: <code class="highlighter-rouge">css</code>, <code class="highlighter-rouge">fonts</code> and <code class="highlighter-rouge">js</code>.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── imgResponsive.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── mainDescriptionDiv.js
+    ├── scrolling-nav.js
+    ├── span.js
+    └── spanPost.js
+</code></pre>
+</div>
+
+<p>All the above files mixed three libraries together:</p>
+<ul>
+  <li>original bootstrap library</li>
+  <li>Scrolling Nav library</li>
+  <li>my additionl library</li>
+</ul>
+
+<h4 id="bootstrap-original-library">Bootstrap original library</h4>
+
+<p>The following files are the original bootstrap library:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+</code></pre>
+</div>
+
+<h4 id="scrolling-nav-library">Scrolling Nav library</h4>
+
+<p>A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  https://startbootstrap.com/template-overviews/scrolling-nav/</p>
+
+<p><strong>Usage Instructions</strong> : Make sure to include the <code class="highlighter-rouge">scrolling-nav.js</code>, <code class="highlighter-rouge">jquery.easing.min.js</code>, and <code class="highlighter-rouge">scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code class="highlighter-rouge">.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+
+<p>The library structure is shown as follow. Note: Scrolling Nav cannot work without Bootstrap.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   └── scrolling-nav.css
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── scrolling-nav.js
+</code></pre>
+</div>
+
+<h4 id="my-additional-library">My Additional library</h4>
+
+<p>In the following files, <code class="highlighter-rouge">rouge.css</code>, <code class="highlighter-rouge">rouge_monokai.css</code>, <code class="highlighter-rouge">rouge_monokai_original.css</code> are the rouge code highlighter stylesheet. And I have made some changes in <code class="highlighter-rouge">scrolling-nav.css</code>.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>assets
+├── css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+└── js
+    ├── imgResponsive.js
+    ├── mainDescriptionDiv.js
+    ├── span.js
+    └── spanPost.js
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">span.js</code> and <code class="highlighter-rouge">spanPost.js</code> is for adding some additional space between two <code class="highlighter-rouge">&lt;h3&gt;</code> and <code class="highlighter-rouge">&lt;h4&gt;</code> sections. <code class="highlighter-rouge">imgResponsive.js</code> makes the image size responsive to the different screen. <code class="highlighter-rouge">mainDescriptionDiv.js</code> adjusts the size of the description div.</p>
+
+
+        
+        
+    </div>
+</div>
+<hr>
+<footer>
+  <p><strong>&copy; Wei SHEN</strong>   |   Copyright: <strong>MIT</strong>   |   e-Mail: <strong>symantec__@hotmail.com</strong>   |   GitHub: <strong>helloShen</strong></p>
+</footer>
+</div>
+</section>
+
+
+</div>
+</section>
+
+
+<!-- jQuery -->
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/jquery.easing.min.js"></script>
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/scrolling-nav.js"></script>
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/mainDescriptionDiv.js"></script>
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/span.js"></script>
+<!--<script src="/jekyll_bootstrap_shen_scroll/assets/js/spanPost.js"></script>-->
+<script src="/jekyll_bootstrap_shen_scroll/assets/js/imgResponsive.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/" rel="alternate" type="text/html" /><updated>2017-01-17T22:04:12-05:00</updated><id>www.ciaoshen.com/jekyll_bootstrap_shen_scroll//</id><title type="html">Jekyll Bootstrap Blog Template by SHEN</title><subtitle>Jekyll Bootstrap Shen Scroll is a personal blog Template created for developers who want to focus on the content instead of waste time on CSS stylesheet.
+</subtitle><entry><title type="html">jekyll</title><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/jekyll.html" rel="alternate" type="text/html" title="jekyll" /><published>2017-01-10T00:00:00-05:00</published><updated>2017-01-10T00:00:00-05:00</updated><id>www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/jekyll</id><content type="html" xml:base="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/jekyll.html">&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a blog scaffold that transform your plain text into static websites and blogs. For more useful detailed informations, please visit &lt;a href=&quot;https://jekyllrb.com/docs/home/&quot;&gt;&lt;strong&gt;《Jekyll Online Document》&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll-structure&quot;&gt;Jekyll Structure&lt;/h3&gt;
+
+&lt;p&gt;This template use the simplest Jekyll structure as follow. But since Jekyll is highly scalable, you can expend any module whenever you want.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;├── _config.yml
+├── _layouts
+|   ├── main.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-your-article-one.md
+|   └── 2009-04-26-your-article-two.md
+├── _site
+├── assets
+|   ├── css
+|   └── fonts
+|   └── js
+├── .jekyll-metadata
+└── index.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;An overview of what each of these does:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/strong&gt;: This is the config file using YAML protocol. Most of the common arguments are included.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;&lt;/strong&gt;: These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the YAML Front Matter. I initiate only two templates: one for main page, another for posts.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;&lt;/strong&gt;: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt;&lt;/strong&gt;: This is where I put the Bootstrap. You can see three folders: css,fonts and js.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.jekyll-metadata&lt;/code&gt;&lt;/strong&gt;: This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your “.gitignore” file.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/strong&gt;: The main access of your web site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;liquid-template-language&quot;&gt;Liquid Template Language&lt;/h3&gt;
+
+&lt;p&gt;Jekyll use the &lt;strong&gt;Liquid Template Laguage&lt;/strong&gt; to process the markdown files in batches. Here is good online guide for Liquid: &lt;a href=&quot;https://github.com/shopify/liquid/wiki/liquid-for-designers&quot;&gt;&lt;strong&gt;《Syntax of Liquid Template Language》&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To create some new Collections like &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt;, just add some add them into the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; config file, and create a new directory &lt;code class=&quot;highlighter-rouge&quot;&gt;_your-new-collection&lt;/code&gt; in the root of your project.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;collections:
+  posts:
+    output:   &lt;span class=&quot;nb&quot;&gt;true
+  &lt;/span&gt;your-new-collection:
+    output:   &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><summary type="html">Jekyll</summary></entry><entry><title type="html">introduction</title><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/intro.html" rel="alternate" type="text/html" title="introduction" /><published>2017-01-10T00:00:00-05:00</published><updated>2017-01-10T00:00:00-05:00</updated><id>www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/intro</id><content type="html" xml:base="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/intro.html">&lt;h3 id=&quot;what-is-jekyll-bootstrap-shen-scroll&quot;&gt;What is Jekyll Bootstrap Shen Scroll?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll Bootstrap Shen Scroll&lt;/strong&gt; is a personal blog Template created for developers who want to
+focus on the content instead of waste time on CSS stylesheet.&lt;/p&gt;
+
+&lt;p&gt;It merge both the &lt;strong&gt;Jekyll&lt;/strong&gt; and &lt;strong&gt;Bootstrap&lt;/strong&gt; to generate a static web site. Jekyll is a static blog scaffold, and Bootstrap randering the stylesheet for you.&lt;/p&gt;
+
+&lt;p&gt;Write your markdown articles, put them in a folder, and then generate your web site with one command line. And that’s all!&lt;/p&gt;</content><summary type="html">What is Jekyll Bootstrap Shen Scroll?</summary></entry><entry><title type="html">contact</title><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/contact.html" rel="alternate" type="text/html" title="contact" /><published>2017-01-10T00:00:00-05:00</published><updated>2017-01-10T00:00:00-05:00</updated><id>www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/contact</id><content type="html" xml:base="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/contact.html">&lt;h3 id=&quot;contact-me&quot;&gt;Contact Me&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Copyright&lt;/strong&gt;: MIT&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;e-Mail&lt;/strong&gt;: symantec__@hotmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: helloShen&lt;/p&gt;</content><summary type="html">Contact Me</summary></entry><entry><title type="html">bootstrap</title><link href="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/bootstrap.html" rel="alternate" type="text/html" title="bootstrap" /><published>2017-01-10T00:00:00-05:00</published><updated>2017-01-10T00:00:00-05:00</updated><id>www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/bootstrap</id><content type="html" xml:base="www.ciaoshen.com/jekyll_bootstrap_shen_scroll/2017/01/10/bootstrap.html">&lt;h3 id=&quot;bootstrap&quot;&gt;Bootstrap&lt;/h3&gt;
+&lt;p&gt;Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/&lt;/p&gt;
+
+&lt;h3 id=&quot;structure&quot;&gt;Structure&lt;/h3&gt;
+
+&lt;p&gt;The bootstrap library is  under the &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; folder including three main directories: &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;fonts&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── imgResponsive.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── mainDescriptionDiv.js
+    ├── scrolling-nav.js
+    ├── span.js
+    └── spanPost.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All the above files mixed three libraries together:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;original bootstrap library&lt;/li&gt;
+  &lt;li&gt;Scrolling Nav library&lt;/li&gt;
+  &lt;li&gt;my additionl library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;bootstrap-original-library&quot;&gt;Bootstrap original library&lt;/h4&gt;
+
+&lt;p&gt;The following files are the original bootstrap library:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;scrolling-nav-library&quot;&gt;Scrolling Nav library&lt;/h4&gt;
+
+&lt;p&gt;A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  https://startbootstrap.com/template-overviews/scrolling-nav/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usage Instructions&lt;/strong&gt; : Make sure to include the &lt;code class=&quot;highlighter-rouge&quot;&gt;scrolling-nav.js&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;jquery.easing.min.js&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;scrolling-nav.css&lt;/code&gt; files. To make a link smooth scroll to another section on the page, give the link the &lt;code class=&quot;highlighter-rouge&quot;&gt;.page-scroll&lt;/code&gt; class and set the link target to a corresponding ID on the page.&lt;/p&gt;
+
+&lt;p&gt;The library structure is shown as follow. Note: Scrolling Nav cannot work without Bootstrap.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets
+├── css
+│   └── scrolling-nav.css
+└── js
+    ├── bootstrap.js
+    ├── bootstrap.min.js
+    ├── jquery.easing.min.js
+    ├── jquery.js
+    ├── scrolling-nav.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;my-additional-library&quot;&gt;My Additional library&lt;/h4&gt;
+
+&lt;p&gt;In the following files, &lt;code class=&quot;highlighter-rouge&quot;&gt;rouge.css&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rouge_monokai.css&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rouge_monokai_original.css&lt;/code&gt; are the rouge code highlighter stylesheet. And I have made some changes in &lt;code class=&quot;highlighter-rouge&quot;&gt;scrolling-nav.css&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;assets
+├── css
+│   ├── rouge.css
+│   ├── rouge_monokai.css
+│   ├── rouge_monokai_original.css
+│   └── scrolling-nav.css
+└── js
+    ├── imgResponsive.js
+    ├── mainDescriptionDiv.js
+    ├── span.js
+    └── spanPost.js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;span.js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;spanPost.js&lt;/code&gt; is for adding some additional space between two &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;&lt;/code&gt; sections. &lt;code class=&quot;highlighter-rouge&quot;&gt;imgResponsive.js&lt;/code&gt; makes the image size responsive to the different screen. &lt;code class=&quot;highlighter-rouge&quot;&gt;mainDescriptionDiv.js&lt;/code&gt; adjusts the size of the description div.&lt;/p&gt;</content><summary type="html">Bootstrap
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/</summary></entry></feed>

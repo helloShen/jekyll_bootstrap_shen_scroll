@@ -1,0 +1,53 @@
+
+# Site settings
+title: Jekyll Bootstrap Blog Template by SHEN
+email: symantec__@hotmail.com
+description: >
+  Jekyll Bootstrap Shen Scroll is a personal blog Template created for developers who want to
+  focus on the content instead of waste time on CSS stylesheet.
+github_username:  helloShen
+
+### Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: /jekyll_bootstrap_shen_scroll     # ex: yourname.github.io/your-project-name  [here,"/your-project-name" is the baseurl]
+url: www.ciaoshen.com     # ex: yourname.github.io/your-project-name  [here,"yourname.github.io" is the baseurl]
+show_dir_listing: false
+
+### Conversion
+markdown:    kramdown
+highlighter: rouge  # should work with a xxx.css highlight stylesheet
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+encoding: utf-8
+
+### kramdown
+kramdown:
+  syntax_highlighter: rouge     # github default highlighter
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+
+### Where things are
+source:       .
+destination:  ./_site
+# plugins_dir:  _plugins
+layouts_dir:  _layouts
+# data_dir:     _data
+includes_dir: _includes
+collections:    # you can create your own collections here
+  posts:
+    output:   true
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
