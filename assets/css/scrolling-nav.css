@@ -52,11 +52,18 @@ of those sections to manage the look and feel of the site. */
     background-color: #fff;
 }
 
-.contact-section {
+.usage-section {
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #eee;
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
 }
 
 div.exercise-title {

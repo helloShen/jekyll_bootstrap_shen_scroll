@@ -16,6 +16,12 @@ data: ["we can define data here"]
         <li>
             <a class="page-scroll" href="#bootstrap">Bootstrap</a>
         </li>
+        <li>
+            <a class="page-scroll" href="#usage">Usage</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+        </li>
     </ul>
 </div>
 <!-- /.navbar-collapse -->
@@ -37,7 +43,7 @@ data: ["we can define data here"]
 </div>
 </section>
 
-<!-- About Section -->
+<!-- Jekyll Section -->
 <section id="jekyll" class="jekyll-section">
 <div class="container">
 <div class="row">
@@ -52,7 +58,7 @@ data: ["we can define data here"]
 </div>
 </section>
 
-<!-- Services Section -->
+<!-- Bootstrap Section -->
 <section id="bootstrap" class="bootstrap-section">
 <div class="container">
 <div class="row">
@@ -64,13 +70,33 @@ data: ["we can define data here"]
         {% endfor %}
     </div>
 </div>
+</div>
+</section>
+
+<!-- Usage Section -->
+<section id="usage" class="usage-section">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+        {% for post in site.posts %}
+        {% if post.title == 'usage'%}
+            {{ post }}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Usage Section -->
+<section id="contact" class="contact-section">
+<div class="container">
 <hr>
 <footer>
   <p><strong>&copy; Wei SHEN</strong>   |   Copyright: <strong>MIT</strong>   |   e-Mail: <strong>symantec__@hotmail.com</strong>   |   GitHub: <strong>helloShen</strong></p>
 </footer>
 </div>
 </section>
-
 
 </div>
 </section>
