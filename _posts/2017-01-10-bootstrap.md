@@ -4,7 +4,7 @@ title: bootstrap
 ---
 
 ### Bootstrap
-Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: http://getbootstrap.com/getting-started/
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: [https://startbootstrap.com/template-overviews/scrolling-nav/](http://getbootstrap.com/getting-started/)
 
 #### Structure
 
@@ -64,7 +64,7 @@ assets
 
 #### Scrolling Nav library
 
-A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  https://startbootstrap.com/template-overviews/scrolling-nav/
+A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  [https://startbootstrap.com/template-overviews/scrolling-nav/](https://startbootstrap.com/template-overviews/scrolling-nav/)
 
 **Usage Instructions** : Make sure to include the `scrolling-nav.js`, `jquery.easing.min.js`, and `scrolling-nav.css` files. To make a link smooth scroll to another section on the page, give the link the `.page-scroll` class and set the link target to a corresponding ID on the page.
 
