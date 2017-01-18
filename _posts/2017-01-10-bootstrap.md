@@ -6,6 +6,11 @@ title: bootstrap
 ### Bootstrap
 Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. For more information please visit: [https://startbootstrap.com/template-overviews/scrolling-nav/](http://getbootstrap.com/getting-started/)
 
+And here are some interesting articles:
+1. [<< the subtle magic behind why the bootstrap 3 grid works >>](http://www.helloerik.com/the-subtle-magic-behind-why-the-bootstrap-3-grid-works)
+2. [<< simplest sass guide >>](http://www.w3cplus.com/sassguide/)
+3. [<< what is node.js >>](https://www.ibm.com/developerworks/cn/opensource/os-nodejs/)
+
 #### Structure
 
 The bootstrap library is  under the `assets` folder including three main directories: `css`, `fonts` and `js`.
