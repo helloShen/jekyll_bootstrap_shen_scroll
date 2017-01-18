@@ -42,7 +42,7 @@ All the above files mixed three libraries together:
 * Scrolling Nav library
 * my additionl library
 
-##### Bootstrap original library
+#### Bootstrap original library
 
 The following files are the original bootstrap library:
 
@@ -62,7 +62,7 @@ assets
     ├── bootstrap.min.js
 ```
 
-##### Scrolling Nav library
+#### Scrolling Nav library
 
 A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites. For more information, please visit:  https://startbootstrap.com/template-overviews/scrolling-nav/
 
@@ -82,7 +82,7 @@ assets
     ├── scrolling-nav.js
 ```
 
-##### My Additional library
+#### My Additional library
 
 In the following files, `rouge.css`, `rouge_monokai.css`, `rouge_monokai_original.css` are the rouge code highlighter stylesheet. And I have made some changes in `scrolling-nav.css`.
 
